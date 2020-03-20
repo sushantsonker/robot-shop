@@ -8,7 +8,7 @@ metadata:
   labels:
     business-unit: BU1
     compliance: NA
-    component: api
+    component: cart
     confidentiality: private
     deployed-by: helm
     name: robot-shop
@@ -24,7 +24,7 @@ spec:
     matchLabels:
       business-unit: BU1
       compliance: NA
-      component: api
+      component: cart
       confidentiality: private
       deployed-by: helm
       name: robot-shop
