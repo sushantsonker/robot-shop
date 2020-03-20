@@ -20,6 +20,19 @@ metadata:
   name: mongodb
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      business-unit: BU1
+      compliance: NA
+      component: mongodb
+      confidentiality: private
+      deployed-by: helm
+      name: robot-shop
+      owner: devteam
+      profile-environment: non-prod-app-cluster
+      project: robots
+      tier: app
+      version: "1.0"  
   strategy: {}
   template:
     metadata:
