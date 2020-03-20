@@ -6,7 +6,17 @@ metadata:
     kompose.version: 1.10.0 (8bb0907)
   creationTimestamp: null
   labels:
-    io.kompose.service: web
+    business-unit: BU1
+    compliance: NA
+    component:  web
+    confidentiality: private
+    deployed-by: helm
+    name: robot-shop
+    owner: devteam
+    profile-environment: non-prod-app-cluster
+    project: robots
+    tier: app
+    version: "1.0"       
   name: web
 spec:
   replicas: 1
@@ -15,7 +25,17 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        io.kompose.service: web
+        business-unit: BU1
+        compliance: NA
+        component:  web
+        confidentiality: private
+        deployed-by: helm
+        name: robot-shop
+        owner: devteam
+        profile-environment: non-prod-app-cluster
+        project: robots
+        tier: app
+        version: "1.0"               
     spec:
       containers:
       - image: linuxacademycontent/rs-web:latest
