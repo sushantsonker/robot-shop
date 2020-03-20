@@ -49,7 +49,7 @@ spec:
         project: robots
         tier: app
         version: "1.0"            
-        spec:
+    spec:
       containers:
       - image: redis:4.0.6
         name: redis
